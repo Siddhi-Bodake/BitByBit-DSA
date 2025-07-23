@@ -18,17 +18,13 @@ This program demonstrates:
 int[] arr = new int[5];
 ➡️ Creates an array of 5 integers.
 
-java
-Copy
-Edit
+
 for (int i = 0; i < arr.length; i++) {
     arr[i] = sc.nextInt();
 }
 ➡️ Takes 5 integers from the user and stores them in the array.
 
-java
-Copy
-Edit
+
 for (int num : arr) {
     System.out.println(num);
 }
@@ -37,23 +33,17 @@ for (int num : arr) {
 🛠️ How to Run
 Make sure you have Java installed. Then:
 
-bash
-Copy
-Edit
+
 javac ArrayBasics.java
 java ArrayBasics
 Input Example:
 
-yaml
-Copy
-Edit
+
 Enter 5 integers:
 10 20 30 40 50
 Output:
 
-yaml
-Copy
-Edit
+
 You entered:
 10
 20
@@ -79,8 +69,7 @@ Store strings or floats
 Reverse the array during output
 
 📁 File Structure
-Copy
-Edit
+
 📦 ArrayBasics
  └── 🧾 ArrayBasics.java
  └── 📄 README.md
